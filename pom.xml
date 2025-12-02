@@ -37,6 +37,10 @@
                             <name>browser</name>
                             <value>${browser}</value>
                         </property>
+                        <property>
+                            <name>testSuite</name>
+                            <value>${testSuite}</value>
+                        </property>
                     </systemProperties>
                 </configuration>
             </plugin>
