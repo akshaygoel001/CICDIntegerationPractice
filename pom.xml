@@ -23,9 +23,7 @@
                 <configuration>>
                     <!-- This line makes parameters work with TestNG -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>
-                            src/main/java/testSuites/testng-${TestSuite}.xml
-                        </suiteXmlFile>
+                        <suiteXmlFile>src/main/java/testSuites/testng-${testSuite}.xml</suiteXmlFile>
                     </suiteXmlFiles>
                     <!-- Pass parameters to test code -->
                     <systemProperties>
